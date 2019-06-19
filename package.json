@@ -13,11 +13,11 @@
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "firebase": "^3.7.5",
     "firebaseui": "^1.0.1"
   },
   "devDependencies": {
-    "axios": "^0.16.2",
     "bootstrap-sass": "^3.3.7",
     "cross-env": "^5.0.1",
     "jquery": "^3.1.1",
